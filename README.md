@@ -57,4 +57,11 @@ Mallinnus huono, vaatii vielä työtä
 Kopioidaan Resources/plugins/FlyWithLua/Scripts
 
 * asksounds.lua (ja sounds/) - Alphan ja betan mukaan muuttuva suhina
-* X-Visibility.lua https://forums.x-plane.org/index.php?/files/file/46845-x-visibility-dynamic-haze-control/
+* X-Visibility.lua (muokatut parametrit) https://forums.x-plane.org/index.php?/files/file/46845-x-visibility-dynamic-haze-control/
+
+## Tilanteet
+
+Muista säätää järkevät säät tilanteisiin. Oletus: Tyyntä, näkyvyys 50km, 
+ei termiikkiä.
+
+* Oletus.sit - Jämin länsipuolella 1000m
