@@ -7,7 +7,7 @@ TIYn simulaattorin tiedostot - täällä aina uusimmat versiot.
 ## Alusta
 
 * Ubuntu 20.04
-* X-Plane 11 hakemistossa ~/XPlane11
+* X-Plane 11 hakemistossa ~/XPlane11 / Euroopan maastot
 
 ## Paneeli
 
@@ -18,10 +18,11 @@ Konffi löytyy paneeli-hakemistosta, simpassa ~/.config/vranki/ExtPlane-panel-qm
 ## Kustomoinnit
 
 * simulaattori.sh -skripti, käynnistää paneelin ja X-Planen
+* image_background_screenshot_for_stack.png -> Resources/bitmaps/interface11, latauskuva
 
 ## Maastot
 
-* apilotx HD Scenery Mesh v4 (Suomi)
+* alpilotx HD Scenery Mesh v4 (Suomi) http://www.alpilotx.net/downloads/x-plane-11-hd-mesh-scenery-v4/
 * EFJM https://forums.x-plane.org/index.php?/files/file/42996-efjm-j%C3%A4mij%C3%A4rvi/
 * EFTS https://forums.x-plane.org/index.php?/files/file/20354-efts-teisko-airfield/
 * OpenSceneryX objektipaketti https://www.opensceneryx.com/
