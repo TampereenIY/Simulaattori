@@ -8,7 +8,7 @@ xvis_build = "2019-03-12"
 xvis_plugin_on = true --enable plugin
 xvis_debug_info = false --show debug info
 xvis_atmoTop_visibility = 30480 --elevation to apply the max visibility, default is 30480 m
-xvis_minFog_value = 0.6 --minimum fog value. Recommending values 0.0-1.0, default is 0.6
+xvis_minFog_value = 0.3 --minimum fog value. Recommending values 0.0-1.0, default is 0.6
 xvis_atmoTop_Fog = 1.5 --fog value after passing atmoTop_visibility
 xvis_highAltFogMult = 0.75 --reduce to 0.5 or 0.25 if you feel the haze at higher altitude is too strong, default is 0.75
 
