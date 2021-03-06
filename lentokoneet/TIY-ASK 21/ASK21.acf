@@ -140,7 +140,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR 0.0
 P _gear/0/_scon 2988.100830078
-P _gear/0/_stat_def 0.387254566
+P _gear/0/_stat_def 0.387254536
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -174,7 +174,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR 0.0
 P _gear/1/_scon 2041.868774414
-P _gear/1/_stat_def 0.082205094
+P _gear/1/_stat_def 0.082205079
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -13714,7 +13714,7 @@ P _part/85/_part_specs_invis 1
 P _part/85/_part_tex 0
 P _part/85/_part_the 0.0
 P _part/85/_part_x 0.0
-P _part/85/_part_y -0.712745428
+P _part/85/_part_y -0.712745488
 P _part/85/_part_z 10.199999809
 P _part/85/_patt_con 0
 P _part/85/_patt_prt 0
@@ -21747,11 +21747,11 @@ P acf/_chute_z/count 3
 P acf/_click_step_otto_alt 10.0
 P acf/_click_step_otto_vvi 100.0
 P acf/_click_step_radio_alt 10.0
-P acf/_cockpit_planned_vanish_y/0 540.0
+P acf/_cockpit_planned_vanish_y/0 520.0
 P acf/_cockpit_planned_vanish_y/1 590.0
 P acf/_cockpit_planned_vanish_y/2 590.0
 P acf/_cockpit_planned_vanish_y/3 590.0
-P acf/_cockpit_planned_vanish_y/4 590.0
+P acf/_cockpit_planned_vanish_y/4 570.0
 P acf/_cockpit_planned_vanish_y/5 590.0
 P acf/_cockpit_planned_vanish_y/6 590.0
 P acf/_cockpit_planned_vanish_y/7 590.0
@@ -22931,7 +22931,7 @@ P acf/_feather_prop_with_oilp 0
 P acf/_feathered_pitch 0.0
 P acf/_ff_rat_idle_JET 0.100000001
 P acf/_ff_rat_idle_PRP 0.250000000
-P acf/_file_writer_version 114100
+P acf/_file_writer_version 115200
 P acf/_flap1_cd 0.0
 P acf/_flap1_cl 0.0
 P acf/_flap1_cm 0.0
@@ -23141,8 +23141,6 @@ P acf/_has_get_tow_new 0
 P acf/_has_give_tow 0
 P acf/_has_ground_pwr 0
 P acf/_has_hsi 0
-P acf/_has_litemap_tex_1 0
-P acf/_has_litemap_tex_2 0
 P acf/_has_pre_rotate 0
 P acf/_has_push_back 0
 P acf/_has_radio_alt_callout 0
@@ -23832,6 +23830,7 @@ P acf/_truck_lon_sep 3.0
 P acf/_tvec_hdng 0.0
 P acf/_tvec_ptch 0.0
 P acf/_tvec_roll 0.0
+P acf/_use_1140_fm 0
 P acf/_use_cus_gear_damping 0
 P acf/_use_cus_gear_defs 0
 P acf/_use_manual_prop_inc 0
