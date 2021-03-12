@@ -37,18 +37,18 @@ function update_sounds()
 
 
     tas = (math.max(tas, 20) - 20)
-    local alphavolume = 0.005 * tas * (math.abs(alpha) / 2)
+    local alphavolume = 0.008 * tas * (math.abs(alpha) / 2)
     local betavolume = 0.005 * tas * (math.abs(beta) / 4 + 1)
-    local brakevolume = 0.01 * tas * brake
+    local brakevolume = 0.1 * tas * brake
 
     if brakes_locked == 0 then
-        brakevolume = brakevolume + 0.005 * tas 
+        brakevolume = brakevolume + 0.02 * tas 
     end
 
     alphavolume = math.max(math.min(alphavolume, 1), 0.001)
     betavolume = math.max(math.min(betavolume, 1), 0.001)
     brakevolume = math.max(math.min(brakevolume, 1), 0.001)
-    -- draw_string(40,40, "volume" ..  brakevolume)
+    -- draw_string(40,40, "volume" ..  alphavolume)
 
     if XPLMGetDatai(pauseref) == 1 then
         alphavolume = 0.001
@@ -65,7 +65,7 @@ function update_sounds()
         play_sound(brake_bang_sound)
         brakes_locked = 1
     end
-    if brakes_locked == 1 and brake > 0.01 then
+    if brakes_locked == 1 and brake > 0.015 then
         set_sound_pitch( brake_bang_sound, 1.3 )
         play_sound(brake_bang_sound)
         brakes_locked = 0
